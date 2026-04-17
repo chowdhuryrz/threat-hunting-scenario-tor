@@ -3,7 +3,7 @@
 
 ## Steps the "Bad Actor" took Create Logs and IoCs:
 1. Download the TOR browser installer: https://www.torproject.org/download/
-2. Install it silently: ```tor-browser-windows-x86_64-portable-14.0.1.exe /S```
+2. Install it silently: ```tor-browser-windows-x86_64-portable-15.0.9.exe /S```
 3. Opens the TOR browser from the folder on the desktop
 4. Connect to TOR and browse a few sites. You can find a valid onion linke here, just look for one that is up/active: https://onion.live/
 — The following are OUT OF DATE, but the links will look something like this:
@@ -46,7 +46,7 @@ DeviceFileEvents
 // TOR Browser being silently installed
 // Take note of two spaces before the /S (I don't know why)
 DeviceProcessEvents
-| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe  /S"
+| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-15.0.9.exe  /S"
 | project Timestamp, DeviceName, ActionType, FileName, ProcessCommandLine
 
 // TOR Browser or service was successfully installed and is present on the disk
@@ -74,9 +74,9 @@ DeviceFileEvents
 ---
 
 ## Created By:
-- **Author Name**: Josh Madakor
-- **Author Contact**: https://www.linkedin.com/in/joshmadakor/
-- **Date**: August 31, 2024
+- **Author Name**: Rohan Chowdhury
+- **Author Contact**: https://www.linkedin.com/in/chowdhuryrz/
+- **Date**: April 16, 2026
 
 ## Validated By:
 - **Reviewer Name**: 
@@ -93,4 +93,4 @@ DeviceFileEvents
 ## Revision History:
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | `September  6, 2024`  | `Josh Madakor`   
+| 1.0         | Initial draft                  | `April 16, 2026`  | `Rohan Chowdhury`   |
