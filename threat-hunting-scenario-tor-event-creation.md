@@ -78,16 +78,6 @@ DeviceFileEvents
 - **Author Contact**: https://www.linkedin.com/in/chowdhuryrz/
 - **Date**: April 16, 2026
 
-## Validated By:
-- **Reviewer Name**: 
-- **Reviewer Contact**: 
-- **Validation Date**: 
-
----
-
-## Additional Notes:
-- **None**
-
 ---
 
 ## Revision History:
